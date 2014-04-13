@@ -5,7 +5,7 @@ public class Ctax extends Tax{
 
     double minus_tax(int percent){
         cost = cost - 500;
-        return cost;
+        return cost+100;
     }
 
 }
